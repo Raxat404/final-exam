@@ -1,0 +1,7 @@
+.heading {
+    @apply flex items-center justify-center text-3xl text-white  font-bold;
+
+    span{
+        @apply py-8 text-orange-500 ;
+    }
+}
