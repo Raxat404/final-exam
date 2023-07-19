@@ -12,15 +12,15 @@ import {useEffect, useState} from "react"
 function App() {
   const [isLoading, setLoading] = useState(true)
   
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLoading(!isLoading)
-  //   }, 4000)
-  // }, [Home])
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(!isLoading)
+    }, 4000)
+  }, [Home])
   
-  // if(isLoading){
-  //   return <LoadingPage />
-  // }
+  if(isLoading){
+    return <LoadingPage />
+  }
   
   
   

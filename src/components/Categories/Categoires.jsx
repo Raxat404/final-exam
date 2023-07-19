@@ -23,7 +23,7 @@ function Categories({ heading }) {
                         <ContentItem key={item.idCategory} {...item} />
                     ))
                 ) : (
-                    <h1>{heading} does not exist!</h1>
+                    <h1 className="text-white">{heading} does not exist!</h1>
                 )}
 
             </div>

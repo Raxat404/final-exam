@@ -83,7 +83,7 @@
 
 @import url(styles/Empty/Empty.scss);
 @import url(styles/Search/Search.scss);
-@import url(styles/Loading/loading.scss);
+@import url(styles/LoadingPage/LoadingPage.scss);
 
 @media screen and (max-width: 991px) {
     .single-meal {
@@ -100,7 +100,7 @@
     .wrapper {
       padding: 2rem;
     }
-    #toggle-menu {
+    .toggle-menu {
       display: inline-block;
       color: #fff;
     }

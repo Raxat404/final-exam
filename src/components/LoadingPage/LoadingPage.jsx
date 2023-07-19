@@ -1,5 +1,5 @@
 import React from 'react'
-import loader from "../../image/loader.gif"
+import loader from "../../image/loading.gif"
 function Loading() {
     return (
       <div className='loading-page'>

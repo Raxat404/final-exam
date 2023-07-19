@@ -18,7 +18,6 @@ function Navbar() {
                 <FontAwesomeIcon icon={faShoppingBasket} className="mr-2 text-yellow-400" />
                 Food
             </Link>
-
             <nav className="header_nav flex items-center space-x-4 md:space-x-8">
                 <ul className={`nav_list md:flex space-x-4 ${isShow ? 'hidden' : 'block md:block'}`}>
                     <li className="nav_item">
@@ -40,9 +39,8 @@ function Navbar() {
                         <Link to="/filterArea/Turkish" className="text-white hover:text-yellow-400">Turkish</Link>
                     </li>
                 </ul>
-
                 <div className={`header_icons space-x-4 md:space-x-8 ${isShow ? 'flex' : 'hidden md:flex'}`}>
-                    <span id="toggle-menu" className="text-white cursor-pointer md:hidden" onClick={handleMenuToggle}>
+                    <span id="toggle-menu" className="toggle-menu text-white cursor-pointer md:hidden" onClick={handleMenuToggle}>
                         <FontAwesomeIcon icon={isShow ? faTimes : faBars} />
                     </span>
 
